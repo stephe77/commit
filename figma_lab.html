@@ -4,7 +4,12 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<title>Verseser</title>
 </head>
 
 <body>
@@ -14,55 +19,66 @@
 <img src="/" alt="На главную"></a>
 <nav>
     <ul>
-        <li><a href="#">Shop now</a></li>
-        <li><a href="#">How to Wear</a></li>
-        <li><a href="#">Collaboration</a></li>
-        <li><a href="#">Meta News</a></li>
-        <li><a href="#">About</a></li>
+        <li id="header_nav"><a href="#">Shop now</a></li>
+        <li id="header_nav"><a href="#">How to Wear</a></li>
+        <li id="header_nav"><a href="#">Collaboration</a></li>
+        <li id="header_nav"><a href="#">Meta News</a></li>
+        <li id="header_nav"><a href="#">About</a></li>
     </ul>
 </nav>
-<a href="#"><img src="/" alt="instagram"></a>
-<a href="#"><img src="/" alt="tiktok"></a>
-<a href="#"><img src="/" alt="twitter"></a>
-<a href="#"><img src="/" alt="pinterest"></a>
-<a href="#"><img src="/" alt="discord"></a>
-<button><img src="/" alt="Корзина"></button>
-</header>
+<a href="http://instagram.com/" class="socialnetwork"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="instagram" width="24" height="24"></a>
+<a href="https://www.tiktok.com/" class="socialnetwork"><img src="https://cdn-icons-png.flaticon.com/512/1946/1946552.png" alt="tiktok" width="24" height="24"></a>
+<a href="http://twitter.com/" class="socialnetwork"><img src="https://cdn-icons-png.flaticon.com/512/220/220375.png" alt="twitter" width="24" height="24"></a>
+<a href="https://ru.pinterest.com/" class="socialnetwork"><img src="https://cdn-icons-png.flaticon.com/512/733/733622.png" alt="pinterest" width="24" height="24"></a>
+<a href="https://discord.com/" class="socialnetwork"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968898.png" alt="discord" width="24" height="24"></a>
+<!--<a href="#">Корзина <p>0</p></a>-->
+<button class="shopping_cart"><img src="/css/Vector.png" alt="корзина"><span class="cart_count">1</span></button>
+</header> 
 
 <main><section>
 <h1>Digital Fashion Studio</h1>
-<p>We create digital clothing and connect it with real people</p>
-<button><img src="/" alt="Shop Now"></button>
+<p id="hello_info">We create digital clothing and connect it with real people</p>
+<div class="buttonshop"><a href="#">Shop now</a> <br></div>
 <img src="/" alt="mainimg">
 </section></main> <hr>
 
 <section>
-    <h3>BEST SELLER</h3>
+    <h3 id="shop_header">BEST SELLER</h3>
 <label><input type="radio" name="article"></label>
 <label><input type="radio" name="article"></label>
 <label><input type="radio" name="article"></label>
-<label><input type="radio" name="article"></label>
-<article>
-    <img src="/" alt="product">
-    <p>BALMLABS</p>
-    <h3>Cropped Puffy Jacket</h3>
-    <h3>$40.00 USD</h3>
-</article>
-<button><img src="/" alt="View all"></button>
+<label><input type="radio" name="article"></label> <br>
+    <a href="#" class="product_url"><img src="/css/productpic.png" alt="product">
+    <p id="product_brand">BALMLABS</p>
+    <p id="product_name">Cropped Puffy Jacket</p>
+    <span class="product_price">$40.00 USD</span>
+</a> <br><br>
+<div class="buttonshop"><a href="#">View all</a></div>
 </section> <hr>
 
 <section>
+
+
     <h2>How to wear a digital garment</h2>
-    <h3>STEP 1</h3>
-    <h4>Choose outfit</h4>
-    <p>Got to our <u>store</u> and choose the outfits you like</p>
-    <h3>STEP 2</h3>
-    <h4>Upload photo</h4>
-    <p>To get the best results, read the photo <u>requirements</u></p>
-    <h3>STEP 3</h3>
-    <h4>Pay</h4>
-    <p>Pay with cash or crypto</p>
-    <button><img src="/" alt="Visit shop"></button>
+    <ol>
+        <li>
+            <p id="step_rect">STEP 1</p>
+            <h3 id="step_h3">Choose outfit</h3>
+            <p id="step_p">Got to our <a href="#">store</a> and choose the outfits you like</p>
+        </li>
+        <li>
+            <p id="step_rect">STEP 2</p>
+            <h3 id="step_h3">Upload photo</h3>
+            <p id="step_p">To get the best results, read the photo <a href="#">requirements</a></p>
+        </li>
+        <li>
+            <p id="step_rect">STEP 3</p>
+            <h3 id="step_h3">Pay</h3>
+            <p id="step_p">Pay with cash or crypto</p>
+        </li>
+    </ol>
+
+    <div class="buttonshop"><a href="#">Visit shop</a></div>
 </section> <hr>
 
 <section>
@@ -70,75 +86,61 @@
     <img src="/" alt="collab">
     <img src="/" alt="collab"><br>
     <img src="/" alt="collab"><br>
-    <button><img src="/" alt="@Verseser"></button>
+    <img src="/" alt="@Verseser">
+    <div class="buttonshop"><a href="#">instagram</a></div>
 </section>
 
 <section>
-    <h3>NEWS</h3>
+    <p>NEWS</p>
     <article>
         <img src="/" alt="news1">
-        <p>01.05.2022</p>
-        <h3>Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</h3>
-        <button><img src="/" alt="Read more"></button> <br> <br>
-
-        <img src="/" alt="news2">
-        <p>01.05.2022</p>
-        <h3>Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</h3>
-        <button><img src="/" alt="Read more"></button> <br> <br>
-        
-        <img src="/" alt="news3">
-        <p>01.05.2022</p>
-        <h3>Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</h3>
-        <button><img src="/" alt="Read more"></button>
+        <p id="news_date">01.05.2022</p>
+        <h3 id="news_headline">Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</h3>
+        <div class="newsbutton"><a href="#">Read more</a></div> <br> <br>
     </article>
+    <article>
+        <img src="/" alt="news2">
+        <p id="news_date">01.05.2022</p>
+        <h3 id="news_headline">Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</h3>
+        <div class="newsbutton"><a href="#">Read more</a></div> <br> <br>
+    </article>
+    <article>
+        <img src="/" alt="news3">
+        <p id="news_date">01.05.2022</p>
+        <h3 id="news_headline">Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek</h3>
+        <div class="newsbutton"><a href="#">Read more</a></div> <br> <br>
+    </article>
+    <div class="buttonshop"><a href="#">View all</a></div>
 </section> <hr>
 
 <section>
     <h2>About Verseser</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt aspernatur, fugit culpa soluta dignissimos, architecto distinctio, quae eum officia minus ratione? Dicta et omnis soluta totam, sapiente ratione reprehenderit perferendis!</p>
-    <button><img src="/" alt="Shop now"></button>
+    <p id="about_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt aspernatur, fugit culpa soluta dignissimos, architecto distinctio, quae eum officia minus ratione? Dicta et omnis soluta totam, sapiente ratione reprehenderit perferendis!</p>
+    <div class="buttonshop"><a href="#">Shop now</a></div>
     <img src="/" alt="aboutimg">
 </section> <hr>
 
 <footer>
+<div class="footer_url">
+    <a href="#">About</a>
+    <a href="#">How to Wear</a>
+    <a href="#">Refund Policy</a>
+    <a href="#">Terms of service</a>
+    <a href="#">Privacy Policy</a> <br>
+</div>
+<img src="/" alt="VERSESER"> <br>
+
 <a href="#"><img src="/" alt="instagram"></a>
 <a href="#"><img src="/" alt="tiktok"></a>
 <a href="#"><img src="/" alt="twitter"></a>
 <a href="#"><img src="/" alt="pinterest"></a>
 <a href="#"><img src="/" alt="discord"></a> <br>
-<img src="/" alt="VERSESER"> <br>
 
-<a href="#">About</a>
-<a href="#">How to Wear</a>
-<a href="#">Refund Policy</a>
-<a href="#">Terms of service</a>
-<a href="#">Privacy Policy</a>
 
-<p>Verseser &#9400; All rights reserved</p>
-<h5>CONTACT US <a href="#">INFO@VERSESER.COM</a></h5>
+<p id="verseser_rights">Verseser &#9400; 2022 All rights reserved</p>
+<p id="contact_info">CONTACT US <a href="#" class="info_mail">INFO@VERSESER.COM</a></p>
 </footer>
 
 
-
-
-
-<!--<section>
-<h2>Form</h2>
-<hr>
-<form>
-<p><label>Name<input type="text" placeholder="Name"></label></p>
-<p><label>Name<input type="text" placeholder="Name"></label></p>
-<p><label>Name<input type="text" placeholder="Name"></label></p>
-<p><label>Message<textarea cols="30" rows="10" placeholder="Message"></textarea></label></p>
-<button>Отправить</button>
-</form>
-</section>
-<footer>
-<li><a href="#">Lorem.</a></li>
-<li><a href="#">Est!</a></li>
-<li><a href="#">Cum?</a></li>
-<li><a href="#">Inventore!</a></li>
-<li><a href="#">Iusto.</a></li>
-</footer>-->
 </body>
 </html>

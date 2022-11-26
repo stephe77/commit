@@ -1,0 +1,257 @@
+:root {
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+
+}
+
+h1 {
+    font-size: 4.4rem;
+}
+
+h2 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 51px;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+div.buttonshop {
+    font-size: 1.5rem;
+    background: #393939;
+    border-radius: 82px;
+    width: 148px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    line-height: 18px;
+    justify-content: center;
+       align-items: center;
+    
+}
+
+div.buttonshop a {
+    color: white;
+    text-decoration: none;
+}
+
+a.socialnetwork {
+    text-decoration: none;
+}
+
+#step_rect {
+font-size: 1.4rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+align-items: center;
+gap: 0px;
+text-transform: uppercase;
+line-height: 17px;
+width: 78px;
+height: 33px;
+font-weight: 600;
+line-height: 17px;
+border: 1px solid #000000;
+border-radius: 2px;
+}
+
+#step_h3 {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+}
+
+#step_p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.7rem;
+line-height: 169.02%;
+color: #393939;
+}
+
+#product_brand {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #939393;
+}
+
+#product_name {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px; 
+line-height: 22px;
+}
+
+#hello_info {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+}
+
+#shop_header {
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.05em;
+border: 1px solid #000000;
+border-radius: 2px;
+width: 114px;
+height: 25px;
+padding: 4px 8px;
+gap: 8px;
+}
+
+#news_headline {
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+}
+
+#news_date {
+    font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+}
+
+div.newsbutton {
+font-size: 1.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 13px 39px;
+gap: 8px;
+
+border: 1px solid #939393;
+border-radius: 82px;
+width: 125px;
+height: 35px;
+
+
+}
+
+div.newsbutton a {
+    
+    text-decoration: none;
+    color: #393939;
+    font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.03em;
+}
+
+
+#about_p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#header_nav {
+    display: inline;
+    margin-right: 14px;
+}
+
+.shopping_cart {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 14px;
+gap: 7px;
+    position: absolute;
+width: 69px;
+height: 34px;
+border: 1px solid #000000;
+border-radius: 2px;
+}
+
+.cart_count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: #181818;  
+    border-radius: 90px;
+}
+
+.product_price {
+    display: flex;
+    justify-content: row;
+    align-items: flex-start;
+    padding: 8px 14px;
+gap: 8px;
+    width: 77px;
+    height: 15px;
+    font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #000000;
+border: 1px solid #000000;
+border-radius: 2px;
+}
+
+.product_url {
+    text-decoration: none;
+}
+
+#verseser_rights {
+    font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+opacity: 0.3;
+}
+
+.footer_url {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+}
+
+.info_mail {
+    font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-decoration-line: underline;
+text-transform: uppercase;
+color: black;
+}
+
+#contact_info {
+    font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+}
