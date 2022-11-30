@@ -3,6 +3,7 @@
     font-size: 62.5%;
     font-style: normal;
     font-weight: 600;
+    --custom-properties: black;
 }
 
 h1 {
