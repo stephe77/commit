@@ -1,7 +1,8 @@
 :root {
     font-family: 'Inter', sans-serif;
     font-size: 62.5%;
-
+    font-style: normal;
+    font-weight: 600;
 }
 
 h1 {
@@ -9,11 +10,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 42px;
-line-height: 51px;
+font-size: 4.2rem;
+line-height: 5.1rem;
 }
 
 p {
@@ -26,10 +24,9 @@ div.buttonshop {
     border-radius: 82px;
     width: 148px;
     height: 44px;
-    font-weight: 600;
-    font-size: 15px;
+    font-size: 1.5rem;
     display: flex;
-    line-height: 18px;
+    line-height: 1.8rem;
     justify-content: center;
        align-items: center;
     
@@ -42,6 +39,8 @@ div.buttonshop a {
 
 a.socialnetwork {
     text-decoration: none;
+    margin-top: 20px;
+    padding-right: 16px;
 }
 
 #step_rect {
@@ -53,25 +52,19 @@ flex-direction: row;
 align-items: center;
 gap: 0px;
 text-transform: uppercase;
-line-height: 17px;
+line-height: 1.7rem;
 width: 78px;
 height: 33px;
-font-weight: 600;
-line-height: 17px;
 border: 1px solid #000000;
 border-radius: 2px;
 }
 
 #step_h3 {
-    font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
+font-size: 2.4rem;
+line-height: 2.9rem;
 }
 
 #step_p {
-    font-family: 'Inter';
-font-style: normal;
 font-weight: 400;
 font-size: 1.7rem;
 line-height: 169.02%;
@@ -79,37 +72,28 @@ color: #393939;
 }
 
 #product_brand {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 15px;
+font-size: 1.2rem;
+line-height: 1.5rem;
 color: #939393;
 }
 
 #product_name {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 18px; 
-line-height: 22px;
+font-size: 1.8rem; 
+line-height: 2.2rem;
 }
 
 #hello_info {
-    font-family: 'Inter';
-font-style: normal;
 font-weight: 400;
-font-size: 15px;
-line-height: 25px;
+font-size: 1.5rem;
+line-height: 2.5rem;
 }
 
 #shop_header {
 display: flex;
 align-items: center;
 justify-content: center;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
+font-size: 1.4rem;
+line-height: 1.7rem;
 letter-spacing: 0.05em;
 border: 1px solid #000000;
 border-radius: 2px;
@@ -117,21 +101,18 @@ width: 114px;
 height: 25px;
 padding: 4px 8px;
 gap: 8px;
+margin-left: 112px;
 }
 
 #news_headline {
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
+font-size: 2rem;
+line-height: 2.4rem;
 letter-spacing: -0.03em;
 }
 
 #news_date {
-    font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 15px;
+font-size: 1.2rem;
+line-height: 1.5rem;
 }
 
 div.newsbutton {
@@ -144,8 +125,8 @@ gap: 8px;
 
 border: 1px solid #939393;
 border-radius: 82px;
-width: 125px;
-height: 35px;
+width: 74px;
+height: 18px;
 
 
 }
@@ -154,22 +135,23 @@ div.newsbutton a {
     
     text-decoration: none;
     color: #393939;
-    font-weight: 600;
-font-size: 15px;
-line-height: 18px;
+font-size: 1.5rem;
+line-height: 1.8rem;
 letter-spacing: -0.03em;
 }
 
 
 #about_p {
     font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    width: 492px;
+    height: 175px;
 }
 
 #header_nav {
     display: inline;
-    margin-right: 14px;
+    padding-right: 1.4rem;
 }
 
 .shopping_cart {
@@ -183,6 +165,9 @@ width: 69px;
 height: 34px;
 border: 1px solid #000000;
 border-radius: 2px;
+margin-left: 1241px;
+margin-top: 17px;
+margin-bottom: 13px;
 }
 
 .cart_count {
@@ -192,9 +177,8 @@ border-radius: 2px;
     width: 16px;
     height: 16px;
     color: white;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     background: #181818;  
@@ -209,10 +193,8 @@ border-radius: 2px;
 gap: 8px;
     width: 77px;
     height: 15px;
-    font-weight: 600;
-font-size: 12px;
-line-height: 15px;
-
+font-size: 1.2rem;
+line-height: 1.5rem;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 color: #000000;
@@ -226,8 +208,8 @@ border-radius: 2px;
 
 #verseser_rights {
     font-weight: 400;
-font-size: 15px;
-line-height: 18px;
+font-size: 1.5rem;
+line-height: 1.8rem;
 opacity: 0.3;
 }
 
@@ -240,18 +222,63 @@ gap: 8px;
 }
 
 .info_mail {
-    font-weight: 600;
-font-size: 15px;
-line-height: 18px;
+font-size: 1.5rem;
+line-height: 1.8rem;
 text-decoration-line: underline;
 text-transform: uppercase;
 color: black;
 }
 
 #contact_info {
-    font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 18px;
+font-size: 1.5rem;
+line-height: 1.8rem;
 text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 14px;
+}
+
+.ul_nav {
+    padding: 0;
+    margin-top: 23px;
+    padding-left: 37;
+}
+
+.verseser_header {
+    margin-left: 113px;
+    margin-top: 21px;
+}
+
+.sections_head {
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.big_models {
+    width: 345px;
+    height: 407px;
+}
+.small_models {
+    width: 168px;
+    height: 168px;
+}
+
+.news_pics {
+    width: 313px;
+    height: 209px;
+}
+
+.news_plashka {
+    width: 66px;
+    height: 31px;
+    padding: 8px 14px;
+    gap: 8px;
+
+    border: 1px solid #000000;
+    border-radius: 2px;
 }
