@@ -4,6 +4,8 @@
     font-style: normal;
     font-weight: 600;
     --custom-properties: black white #393939 #939393 #f9f9f9;
+    margin-left: 15px;
+    max-width: 375px;
 }
 
 h1 {
@@ -142,11 +144,11 @@ div.newsbutton a {
 }
 
 
-#about_p {
+.about_p {
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 2.5rem;
-    width: 492px;
+    width: 375px;
     height: 175px;
 }
 
@@ -207,7 +209,8 @@ div.newsbutton a {
     text-decoration: none;
 }
 
-#verseser_rights {
+.verseser_rights {
+    padding-left: 1.5rem;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.8rem;
@@ -215,11 +218,28 @@ div.newsbutton a {
 }
 
 .footer_url {
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
+    color: white;
+}
+
+.footer_link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.footer_ul_links {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    padding-top: 3rem;
+    margin-top: 0;
 }
 
 .info_mail {
@@ -227,10 +247,12 @@ div.newsbutton a {
     line-height: 1.8rem;
     text-decoration-line: underline;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
 
-#contact_info {
+.contact_info {
+    padding-left: 1.5rem;
+    padding-bottom: 2.1rem;
     font-size: 1.5rem;
     line-height: 1.8rem;
     text-transform: uppercase;
@@ -283,4 +305,24 @@ header {
 
     border: 1px solid #000000;
     border-radius: 2px;
+}
+
+footer {
+    background-color: #181818;
+    color: white;
+}
+
+.footer_social {
+    display: flex;
+}
+
+
+.footer_social {
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+}
+
+.socseti_footer {
+    width: 2rem;
+    height: 2rem;
 }
