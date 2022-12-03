@@ -3,8 +3,12 @@
     font-size: 62.5%;
     font-style: normal;
     font-weight: 600;
-    --custom-properties: black white #393939 #939393 #f9f9f9;
-    margin-left: 15px;
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #393939;
+    --grey-light: #939393;
+    --darkness-white: #f9f9f9;
+    padding-left: 1rem;
     max-width: 375px;
 }
 
@@ -23,7 +27,7 @@ p {
 
 div.buttonshop {
     font-size: 1.5rem;
-    background: #393939;
+    background: var(--grey);
     border-radius: 82px;
     width: 148px;
     height: 44px;
@@ -36,7 +40,7 @@ div.buttonshop {
 }
 
 div.buttonshop a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -58,7 +62,7 @@ a.socialnetwork {
     line-height: 1.7rem;
     width: 78px;
     height: 33px;
-    border: 1px solid #000000;
+    border: 1px solid var(--black);
     border-radius: 2px;
 }
 
@@ -71,13 +75,13 @@ a.socialnetwork {
     font-weight: 400;
     font-size: 1.7rem;
     line-height: 169.02%;
-    color: #393939;
+    color: var(--grey);
 }
 
 #product_brand {
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: #939393;
+    color: var(--grey-light);
 }
 
 #product_name {
@@ -98,13 +102,14 @@ a.socialnetwork {
     font-size: 1.4rem;
     line-height: 1.7rem;
     letter-spacing: 0.05em;
-    border: 1px solid #000000;
+    border: 1px solid var(--black);
     border-radius: 2px;
     width: 114px;
     height: 25px;
     padding: 4px 8px;
     gap: 8px;
-    margin-left: 112px;
+    margin-left: 1.5rem;
+    margin-right: 16.5rem;
 }
 
 #news_headline {
@@ -126,7 +131,7 @@ div.newsbutton {
     padding: 13px 39px;
     gap: 8px;
 
-    border: 1px solid #939393;
+    border: 1px solid var(--grey-light);
     border-radius: 82px;
     width: 74px;
     height: 18px;
@@ -137,7 +142,7 @@ div.newsbutton {
 div.newsbutton a {
 
     text-decoration: none;
-    color: #393939;
+    color: var(--grey);
     font-size: 1.5rem;
     line-height: 1.8rem;
     letter-spacing: -0.03em;
@@ -169,7 +174,7 @@ div.newsbutton a {
     position: absolute;
     width: 69px;
     height: 34px;
-    border: 1px solid #000000;
+    border: 1px solid var(--black);
     border-radius: 2px;
     margin-left: 248px;
     margin-top: 9px;
@@ -183,7 +188,7 @@ div.newsbutton a {
     align-items: center;
     width: 16px;
     height: 16px;
-    color: white;
+    color: var(--white);
     font-size: 1rem;
     line-height: 1.2rem;
     letter-spacing: 0.05em;
@@ -204,8 +209,8 @@ div.newsbutton a {
     line-height: 1.5rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: black;
-    border: 1px solid #000000;
+    color: var(--black);
+    border: 1px solid var(--black);
     border-radius: 2px;
 }
 
@@ -228,14 +233,14 @@ div.newsbutton a {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    color: white;
+    color: var(--white);
 }
 
 .footer_link {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: white;
+    color: var(--white);
     font-size: 1.4rem;
     padding-bottom: 1.6rem;
 }
@@ -252,7 +257,7 @@ div.newsbutton a {
     line-height: 1.8rem;
     text-decoration-line: underline;
     text-transform: uppercase;
-    color: white;
+    color: var(--white);
 }
 
 .contact_info {
@@ -284,7 +289,7 @@ header {
 
 .sections_head {
     margin: 0;
-    background-color: #f9f9f9;
+    background-color: var(--darkness-white);
 }
 
 .big_models {
@@ -313,13 +318,13 @@ header {
     padding: 8px 14px;
     gap: 8px;
 
-    border: 1px solid #000000;
+    border: 1px solid var(--black);
     border-radius: 2px;
 }
 
 footer {
     background-color: #181818;
-    color: white;
+    color: var(--white);
 }
 
 .footer_social {
@@ -343,4 +348,14 @@ footer {
     border: none;
     margin-top: 1.4rem;
     margin-left: 15.9rem;
+}
+
+.shop_container_flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.switch_buttons {
+    margin-right: 1.6rem;
 }
