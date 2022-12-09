@@ -254,6 +254,16 @@ div.newsbutton a {
     padding-left: 14px;
 }
 
+.product_articles {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.next_article {
+    margin-left: 0;
+}
+
 .product_price {
     display: flex;
     justify-content: row;
