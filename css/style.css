@@ -18,7 +18,11 @@
 
 h1 {
     font-size: 4.4rem;
-
+    background: linear-gradient(45deg, #bd0ce5 33%, #1af34f 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
 }
 
 h2 {
@@ -48,7 +52,6 @@ div.buttonshop {
     align-items: center;
     margin-left: 1.5rem;
     margin-top: 2rem;
-
 
 }
 
@@ -134,6 +137,7 @@ a.socialnetwork {
     line-height: 2.5rem;
     width: 342px;
     height: 5rem;
+    background-image: url(/css/img/main_imgback.png);
 }
 
 .shop_header {
@@ -285,6 +289,8 @@ div.newsbutton a {
     border: 1px solid var(--black);
     border-radius: 2px;
     margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 5px 2px red;
 }
 
 .product_url {
@@ -503,8 +509,9 @@ footer {
     margin-right: 0.5rem;
 }
 
+
 #about_pic {
-    width:345px;
+    width: 345px;
     height: 343px;
     padding-left: 1.5rem;
     padding-bottom: 6.8rem;
@@ -520,14 +527,23 @@ footer {
     padding-right: 0;
 }
 
-/* @media (min-width: 1100px) {
-    #hello_info {
-        width: 555px;
+/* @media (min-width: 700px) { 
+    #but_shop_viewall {
+        width: 132px;
+        height: 44px;
+        right: 200px;
+        top: 700px;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
-    #main_pic {
-        text-align: right;
-        display: inline;
-        justify-content: flex-end;
-        padding-top: 13rem;
+
+
+}
+
+@media (max-width: 570) {
+    #third_prod {
+        display: none;
     }
-} */
+}*/
